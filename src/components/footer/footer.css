@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--container-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem;
 }
 
 .footer__container {
@@ -10,6 +11,12 @@
 .footer__title,
 .footer__link {
     color: var(--title-color);
+}
+
+.footer-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__title {
@@ -41,6 +48,8 @@
     padding: 10px;
     border-radius: 0.5rem;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__social-link:hover {

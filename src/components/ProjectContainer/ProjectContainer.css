@@ -1,0 +1,139 @@
+.project-section {
+  width: 90%;
+  margin: 68px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.ProjectNameTitle {
+  transition: all 0.5s ease-in-out;
+  color: #000000;
+  cursor: pointer;
+}
+
+.ProjectNameTitle:hover {
+  transform: scale(1.1);
+  color: #898989;
+}
+
+.projectDetail-Button {
+  padding: 7px 20px;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+  color: rgb(73, 73, 73);
+  border: 2px solid #898989;
+}
+
+.projectDetail-Button:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  border: 2px solid #000000;
+}
+
+.project-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.card-img-box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-img-top .img1 {
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border: 2px solid #898989;
+}
+
+.card-img-top .img1:hover {
+  transform: scale(1.05);
+  border: 2px solid #000000;
+}
+
+.card-img-top .img2 {
+  width: 500px;
+  height: 250px;
+  border-radius: 15px;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border: 2px solid #898989;
+}
+
+.card-img-top .img2:hover {
+  transform: scale(1.05);
+  border: 2px solid #000000;
+}
+
+.card-img-bottom {
+  width: 100%;
+  height: 250px;
+}
+
+.card-img-bottom .img3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border: 2px solid #898989;
+}
+
+.card-img-bottom .img3:hover {
+  transform: scale(1.05);
+  border: 2px solid #000000;
+}
+
+.card-img-box-2 {
+  width: 250px;
+  height: 510px;
+}
+
+.card-img-box-2 .img4 {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  border: 2px solid #898989;
+}
+
+.card-img-box-2 .img4:hover {
+  transform: scale(1.05);
+  border: 2px solid #000000;
+}
+
+.card-img-top .img1,
+.card-img-top .img2,
+.card-img-bottom .img3,
+.card-img-box-2 .img4 {
+  object-fit: cover;
+  object-position: center;
+}

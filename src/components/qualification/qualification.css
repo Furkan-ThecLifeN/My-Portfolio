@@ -75,6 +75,15 @@
 
 .qualification__calendar {
   font-size: var(--small-font-size);
+  width: 100%;
+}
+
+.calendar-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
 }
 
 .qualification__rounder {

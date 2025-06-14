@@ -52,10 +52,115 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">HTML & CSS</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Fullstack Web Development Certificate
                 </span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2024 - Present
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">JavaScript</h3>
+                <span className="qualification__subtitle">
+                  Fullstack Web Development Certificate
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2025 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Bootstrap 5</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2025
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">React</h3>
+                <span className="qualification__subtitle">
+                  Fullstack Web Development Certificate
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2025 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">React Native</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2025
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Node JS</h3>
+                <span className="qualification__subtitle">
+                  Fullstack Web Development Certificate
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2025 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Python</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
                 <div className="qualification__calendar">
                   <BsCalendarDate /> 2025 - Present
                 </div>
@@ -75,24 +180,22 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+                <h3 className="qualification__title">English for IT</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
                 <div className="qualification__calendar">
-                  <BsCalendarDate /> 2025 - Present
+                  <BsCalendarDate /> 2025
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+                <h3 className="qualification__title">English (B1 Level)</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
                 <div className="qualification__calendar">
-                  <BsCalendarDate /> 2025 - Present
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2025
+                  </div>
                 </div>
               </div>
               <div>
@@ -110,13 +213,27 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  Spain - Institute
-                </span>
+                <h3 className="qualification__title">Git & Github</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
                 <div className="qualification__calendar">
-                  <BsCalendarDate /> 2025 - Present
+                  <BsCalendarDate /> 2025
                 </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Unreal Engine 5</h3>
+                <span className="qualification__subtitle">BTK Akademi</span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2024
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
@@ -131,12 +248,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">CineVerse</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  CineVerse is a dynamic React web app for discovering, rating,
+                  and reviewing movies using real-time data.{" "}
                 </span>
                 <div className="qualification__calendar">
-                  <BsCalendarDate /> 2025 - Present
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2025
+                  </div>
                 </div>
               </div>
               <div>
@@ -154,9 +274,10 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">UX Designer</h3>
+                <h3 className="qualification__title">BeatVerse</h3>
                 <span className="qualification__subtitle">
-                  Apple Inc - Spain
+                  BeatVerse is a React Native app designed for discovering and
+                  exploring music seamlessly.
                 </span>
                 <div className="qualification__calendar">
                   <BsCalendarDate /> 2025 - Present
@@ -166,15 +287,158 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Figma - Spain</span>
+                <h3 className="qualification__title">My Portfolio</h3>
+                <span className="qualification__subtitle">
+                  My Portfolio is a modern, fully responsive React website
+                  showcasing projects, skills, and experience.
+                </span>
                 <div className="qualification__calendar">
-                  <BsCalendarDate /> 2025 - Present
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2025
+                  </div>
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">DailyO</h3>
+                <span className="qualification__subtitle">
+                  DailyO is a multi-purpose web platform integrating various
+                  APIs to deliver weather, news, finance, horoscopes, and
+                  recipes in one place.
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2025 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Cinemania</h3>
+                <span className="qualification__subtitle">
+                  Cinemania is a film and series discovery platform by Group C,
+                  enabling users to find, list, and share their favorite titles.
+                </span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2025
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Nike Store</h3>
+                <span className="qualification__subtitle">
+                  Nike Store is a responsive e-commerce web app built with Vite
+                  and JavaScript, featuring product filtering and local storage.
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2025
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">FocusFrame</h3>
+                <span className="qualification__subtitle">
+                  FocusFrame is a sleek HTML/CSS website that showcases the art
+                  of photography.
+                </span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2024
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Portfolio-Website</h3>
+                <span className="qualification__subtitle">
+                  A stylish, modern, and fully responsive portfolio website
+                  built with HTML and CSS.{" "}
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2024
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Chef-s-Kitchen</h3>
+                <span className="qualification__subtitle">
+                  Chef’s Kitchen is a responsive HTML/CSS website for a pizza
+                  delivery service, highlighting fast and convenient ordering.{" "}
+                </span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2024
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">WebStudio</h3>
+                <span className="qualification__subtitle">
+                  WebStudio is a business-focused HTML/CSS website designed to
+                  promote custom web and app development services.
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2024
+                </div>
               </div>
             </div>
           </div>

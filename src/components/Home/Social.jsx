@@ -1,10 +1,11 @@
 import React from 'react'
+import { FaXTwitter } from "react-icons/fa6";
 
 const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/furkan_theclifen/"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
@@ -13,16 +14,16 @@ const Social = () => {
       </a>
 
       <a
-        href="https://www.youtube.com/"
+        href="https://x.com/furkantheclifen"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"
       >
-        <i class="uil uil-youtube"></i>
+        <FaXTwitter />
       </a>
 
       <a
-        href="https://github.com/"
+        href="https://github.com/Furkan-ThecLifeN"
         className="home__social-icon"
         target="_blank"
         rel="noreferrer"

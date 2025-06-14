@@ -9,16 +9,12 @@ import { TiDelete } from "react-icons/ti";
 import { FaCode } from "react-icons/fa6";
 import { SiAffinitydesigner } from "react-icons/si";
 
-
-
-
 const Services = () => {
+  const [toggleState, setToggleState] = useState(0);
 
-    const [toggleState, setToggleState] = useState(0);
-
-    const toggleTab = (index) => {
-        setToggleState(index);
-    }
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
 
   return (
     <section className="services section" id="services">
@@ -30,8 +26,8 @@ const Services = () => {
           <div>
             <SiAffinitydesigner className="services__card-icon" />
             <h3 className="services__title">
-              Product <br />
-              Designer
+              Web <br />
+              Development
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(1)}>
@@ -52,40 +48,38 @@ const Services = () => {
                 className="services__icon-closed"
               />
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Web Development</h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                possimus ab repellendus, temporibus vero velit odio ducimus qui
-                ipsa quibusdam?
+                I build modern, fast, and user-friendly websites. Each project
+                combines functionality with design to deliver custom digital
+                solutions.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Mobile-responsive design
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">SEO-friendly structure</p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
-                  <p className="services__modal-info">
-                    I create ux elemnt interactions.
-                  </p>
+                  <p className="services__modal-info">Fast loading times</p>
                 </li>
 
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Clean and readable code
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Easily manageable content
                   </p>
                 </li>
               </ul>
@@ -102,7 +96,7 @@ const Services = () => {
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
-            View More
+            UI/UX Design
             <FaArrowAltCircleRight className="services__button-icon" />
           </span>
 
@@ -121,38 +115,36 @@ const Services = () => {
 
               <h3 className="services__modal-title">Ui / Ux Designer</h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                possimus ab repellendus, temporibus vero velit odio ducimus qui
-                ipsa quibusdam?
+                With a user-centered design approach, I create digital experiences that are both visually appealing and highly functional.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Intuitive user interface design
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Interactive prototypes</p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I create ux elemnt interactions.
+                    Consistent typography and color schemes
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I position your company brand.
+                    UX research and analysis
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Cohesive design systems
                   </p>
                 </li>
               </ul>
@@ -164,12 +156,12 @@ const Services = () => {
           <div>
             <FaRegEdit className="services__card-icon" />
             <h3 className="services__title">
-              Visual <br />
-              Designer
+              Backend <br />
+              Solutions
             </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
-            View More
+            Backend Solutions
             <FaArrowAltCircleRight className="services__button-icon" />
           </span>
 
@@ -186,40 +178,38 @@ const Services = () => {
                 className="services__icon-closed"
               />
 
-              <h3 className="services__modal-title">Visual Designer</h3>
+              <h3 className="services__modal-title">Backend Solutions</h3>
               <p className="services__modal-description">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                possimus ab repellendus, temporibus vero velit odio ducimus qui
-                ipsa quibusdam?
+                I offer backend solutions focused on data management, security, and performance, ensuring all behind-the-scenes operations run smoothly.
               </p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    RESTful API development
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Robust database architecture</p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I create ux elemnt interactions.
+                    Authentication and security
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    I position your company brand.
+                    Performance optimization
                   </p>
                 </li>
                 <li className="services__modal-service">
                   <FaCheckCircle className="services__icon" />
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Scalable server structure
                   </p>
                 </li>
               </ul>

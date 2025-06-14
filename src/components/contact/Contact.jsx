@@ -55,7 +55,7 @@ const Contact = () => {
               <span className="contact__card-data">Furkan ThecLifeN</span>
 
               <a
-                href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F"
+                href="https://www.linkedin.com/in/furkan-karaderili-369245216/"
                 className="contact__button"
               >
                 Write me{" "}
@@ -68,7 +68,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Instagram</h3>
               <span className="contact__card-data">@furkan_theclifen</span>
 
-              <a href="https://www.instagram.com/" className="contact__button">
+              <a href="https://www.instagram.com/furkan_theclifen/" className="contact__button">
                 Write me{" "}
                 <FaArrowAltCircleRight className="contact__button-icon" />
               </a>

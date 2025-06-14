@@ -1,0 +1,30 @@
+.hero {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.hero__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.hero__subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--text-color);
+  max-width: 700px;
+  line-height: 1.6;
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/John-Cv.pdf";
+import AboutImg from "../../assets/profile.png";
+import CV from "../../assets/CV.pdf";
 import "./about.css";
 import Info from "./Info";
 
@@ -14,9 +14,9 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic magnam
-            nulla neque maiores molestiae velit cum, ab alias voluptatum
-            deserunt?
+            I'm a passionate Full Stack Developer with experience in both
+            frontend and backend development. I create efficient, scalable, and
+            user-friendly solutions tailored to project needs.
           </p>
 
           <a download="" href={CV} className="button button--flex">
