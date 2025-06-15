@@ -8,17 +8,16 @@ import "./ProjectsPage.css";
 import Cinemania from "../components/ProjectContainer/Projects/Cinemania";
 import NikeStore from "../components/ProjectContainer/Projects/NikeStore";
 import FocusFrame from "../components/ProjectContainer/Projects/FocusFrame";
-import PortfolioWebsite from './../components/ProjectContainer/Projects/PortfolioWebsite';
+import PortfolioWebsite from "./../components/ProjectContainer/Projects/PortfolioWebsite";
 import ChefsKitchen from "../components/ProjectContainer/Projects/ChefsKitchen";
 import WebStudio from "../components/ProjectContainer/Projects/WebStudio";
-
 
 const ProjectsPage = () => {
   return (
     <>
       <ProjectsHero />
       <CineVerse />
-      <BeatVerse />
+      {/*<BeatVerse />*/}
       <MyPortfolio />
       <DailyO />
       <Cinemania />
