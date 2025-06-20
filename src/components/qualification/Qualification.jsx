@@ -274,10 +274,9 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">BeatVerse</h3>
+                <h3 className="qualification__title">W1</h3>
                 <span className="qualification__subtitle">
-                  BeatVerse is a React Native app designed for discovering and
-                  exploring music seamlessly.
+                  W1 is a React Native social media app built to connect people through dynamic content sharing and real-time interaction.
                 </span>
                 <div className="qualification__calendar">
                   <BsCalendarDate /> 2025 - Present
