@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaXTwitter } from "react-icons/fa6";
-
+import { FaLinkedin } from "react-icons/fa";
 const Social = () => {
   return (
     <div className="home__social">
@@ -19,7 +18,7 @@ const Social = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <FaXTwitter />
+        <FaLinkedin />
       </a>
 
       <a

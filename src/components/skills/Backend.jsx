@@ -11,7 +11,7 @@ function Backend() {
           <div className="skills__data">
             <LuBadgeCheck className="fronted-icon" />
             <div>
-              <h3 className="skills__name">PHP</h3>
+              <h3 className="skills__name">C / C++</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -25,7 +25,7 @@ function Backend() {
           <div className="skills__data">
             <LuBadgeCheck className="fronted-icon" />
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">MongoDB</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

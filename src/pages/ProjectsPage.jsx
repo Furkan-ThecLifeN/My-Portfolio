@@ -11,15 +11,21 @@ import FocusFrame from "../components/ProjectContainer/Projects/FocusFrame";
 import PortfolioWebsite from "./../components/ProjectContainer/Projects/PortfolioWebsite";
 import ChefsKitchen from "../components/ProjectContainer/Projects/ChefsKitchen";
 import WebStudio from "../components/ProjectContainer/Projects/WebStudio";
+import TravelTrucks from "../components/ProjectContainer/Projects/TravelTrucks";
+import GuardiansOfMoney from "../components/ProjectContainer/Projects/GuardiansOfMoney";
+import TaskHive from "../components/ProjectContainer/Projects/TaskPro";
+import W1 from "../components/ProjectContainer/Projects/W1";
 
 const ProjectsPage = () => {
   return (
     <>
       <ProjectsHero />
+      <W1 />
+      <TaskHive />
+      <TravelTrucks />
+      <GuardiansOfMoney />
       <CineVerse />
-      {/*<BeatVerse />*/}
       <MyPortfolio />
-      <DailyO />
       <Cinemania />
       <NikeStore />
       <FocusFrame />
