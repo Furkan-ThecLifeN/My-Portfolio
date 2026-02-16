@@ -32,3 +32,38 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+/* --- FOTOĞRAFLARIN BOZULMASINI ÖNLEYEN EKLEMELER --- */
+
+/* Fotoğrafları kapsayan div'lere (card-img-top, card-img-bottom vb.) 
+   bu kuralı ekliyoruz ki fotoğraf dışarı taşmasın 
+*/
+.card-img-top, 
+.card-img-bottom, 
+.card-img-box-2,
+.card-img-box-1 > div {
+  overflow: hidden;
+  border-radius: 1rem; /* Köşelerin yuvarlaklığını korumak için */
+}
+
+/* İstediğin boyutları koruyan ama fotoğrafın basık 
+   görünmesini engelleyen asıl kısım burası 
+*/
+img {
+  width: 100%;
+  height: 100%;
+  /* Fotoğrafın en-boy oranını bozmadan kutuyu doldurmasını sağlar */
+  object-fit: cover; 
+  /* Fotoğrafı kutunun tam ortasına odaklar */
+  object-position: center; 
+  display: block;
+}
+
+/* Eğer React tarafında img-wrapper kullandıysan 
+   onun da boyutları tam kaplamasını garanti edelim 
+*/
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}

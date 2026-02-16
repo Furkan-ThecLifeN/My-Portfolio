@@ -15,12 +15,20 @@ import TravelTrucks from "../components/ProjectContainer/Projects/TravelTrucks";
 import GuardiansOfMoney from "../components/ProjectContainer/Projects/GuardiansOfMoney";
 import TaskHive from "../components/ProjectContainer/Projects/TaskPro";
 import W1 from "../components/ProjectContainer/Projects/W1";
+import LearnLingo from "../components/ProjectContainer/Projects/LearnLingo";
+import EnterpriseAuth from "../components/ProjectContainer/Projects/EnterpriseAuth";
+import EcommerceMicroservices from "../components/ProjectContainer/Projects/EcommerceMicroservices";
+import SmartInventory from "../components/ProjectContainer/Projects/SmartInventory";
 
 const ProjectsPage = () => {
   return (
     <>
       <ProjectsHero />
       <W1 />
+      <SmartInventory />
+      <EcommerceMicroservices />
+      <EnterpriseAuth />
+      <LearnLingo />
       <TaskHive />
       <TravelTrucks />
       <GuardiansOfMoney />

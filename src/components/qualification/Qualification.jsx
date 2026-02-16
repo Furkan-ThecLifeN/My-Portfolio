@@ -42,7 +42,7 @@ const Qualification = () => {
         </div>
 
         <div className="qualification__sections">
-          {/* EDUCATION */}
+          {/* EDUCATION SECTION */}
           <div
             className={
               toggleState === 1
@@ -101,7 +101,7 @@ const Qualification = () => {
             </div>
           </div>
 
-          {/* EXPERIENCE */}
+          {/* EXPERIENCE SECTION */}
           <div
             className={
               toggleState === 2
@@ -109,16 +109,16 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            {/* W1 – en üste */}
+            {/* 1. W1 (EN ÜSTTE) */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">W1</h3>
                 <span className="qualification__subtitle">
-                  W1 is an advanced full-stack React web application built for dynamic content sharing, real-time interaction, and seamless social connectivity.
+                  Advanced full-stack React web application built for dynamic content sharing, real-time interaction, and seamless social connectivity.
                 </span>
                 <div className="qualification__calendar">
                   <div className="calendar-right">
-                    <BsCalendarDate /> 2025 – Present
+                    <BsCalendarDate /> 2025 – 2026
                   </div>
                 </div>
               </div>
@@ -128,7 +128,81 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* TravelTrucks */}
+            {/* 2. Smart Inventory Management */}
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Smart Inventory Management</h3>
+                <span className="qualification__subtitle">
+                  Hybrid Web and Desktop architecture featuring Kafka-based stock tracking and an Offline-First synchronization system supported by SQLite.
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2026
+                </div>
+              </div>
+            </div>
+
+            {/* 3. Event-Driven Microservices */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Event-Driven Microservices</h3>
+                <span className="qualification__subtitle">
+                  Developed with Java 21, Spring Boot 3.3, and Kafka; a scalable infrastructure featuring asynchronous order flows and distributed logging.
+                </span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2026
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            {/* 4. Enterprise Auth System */}
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Enterprise Auth System</h3>
+                <span className="qualification__subtitle">
+                  High-security framework featuring Java 21, Spring Boot 3, and JWT. Implements RBAC, BCrypt hashing, and Docker orchestration for scalable solutions.
+                </span>
+                <div className="qualification__calendar">
+                  <BsCalendarDate /> 2026
+                </div>
+              </div>
+            </div>
+
+            {/* 5. LearnLingo */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">LearnLingo</h3>
+                <span className="qualification__subtitle">
+                  Language tutor platform built with React 18 and Firebase 11. Features real-time tutor discovery, lesson booking, and secure authentication.
+                </span>
+                <div className="qualification__calendar">
+                  <div className="calendar-right">
+                    <BsCalendarDate /> 2026
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            {/* 6. TravelTrucks */}
             <div className="qualification__data">
               <div></div>
               <div>
@@ -138,7 +212,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">TravelTrucks</h3>
                 <span className="qualification__subtitle">
-                  TravelTrucks is a modern camper rental platform built with React, Redux Toolkit, Vite, and MockAPI, enabling users to browse campers, filter features, view details, and save favorites.
+                  Modern camper rental platform built with React and Redux Toolkit, enabling users to browse campers and manage favorites.
                 </span>
                 <div className="qualification__calendar">
                   <BsCalendarDate /> 2025
@@ -146,12 +220,12 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* Guardians of Money */}
+            {/* 7. Guardians of Money */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Guardians of Money</h3>
                 <span className="qualification__subtitle">
-                  Guardians of Money is a modern finance management app developed with React, Redux Toolkit, and Vite, offering income-expense tracking, real-time currency data, visual charts, and responsive UI.
+                  Finance management app developed with React and Redux Toolkit, offering income-expense tracking and real-time currency data.
                 </span>
                 <div className="qualification__calendar">
                   <div className="calendar-right">
@@ -165,7 +239,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* TaskHive / TaskPro */}
+            {/* 8. TaskHive / TaskPro */}
             <div className="qualification__data">
               <div></div>
               <div>
@@ -175,7 +249,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">TaskHive / TaskPro</h3>
                 <span className="qualification__subtitle">
-                  TaskHive is a collaborative project built with React and Node.js, designed to manage tasks, organize workflow, and streamline team productivity in real time.
+                  Collaborative project built with React and Node.js, designed to manage tasks and streamline team productivity in real time.
                 </span>
                 <div className="qualification__calendar">
                   <BsCalendarDate /> 2024 – 2025
@@ -183,12 +257,12 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* Other existing projects */}
+            {/* 9. Cinemania */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Cinemania</h3>
                 <span className="qualification__subtitle">
-                  Cinemania is a discovery platform for movies and series, enabling users to explore, list, and manage their favorite titles.
+                  A discovery platform for movies and series, enabling users to explore and list their favorite titles.
                 </span>
                 <div className="qualification__calendar">
                   <div className="calendar-right">
@@ -202,6 +276,7 @@ const Qualification = () => {
               </div>
             </div>
 
+            {/* 10. Nike Store */}
             <div className="qualification__data">
               <div></div>
               <div>
@@ -211,7 +286,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Nike Store</h3>
                 <span className="qualification__subtitle">
-                  A responsive e-commerce web application built with JavaScript and Vite, featuring product filtering and local storage support.
+                  Responsive e-commerce web application built with JavaScript and Vite, featuring product filtering and local storage.
                 </span>
                 <div className="qualification__calendar">
                   <BsCalendarDate /> 2025
@@ -219,6 +294,7 @@ const Qualification = () => {
               </div>
             </div>
 
+            {/* 11. FocusFrame */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">FocusFrame</h3>
@@ -237,6 +313,7 @@ const Qualification = () => {
               </div>
             </div>
 
+            {/* 12. Portfolio Website */}
             <div className="qualification__data">
               <div></div>
               <div>
@@ -254,6 +331,7 @@ const Qualification = () => {
               </div>
             </div>
 
+            {/* 13. Chef’s Kitchen */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Chef’s Kitchen</h3>
@@ -272,6 +350,7 @@ const Qualification = () => {
               </div>
             </div>
 
+            {/* 14. WebStudio */}
             <div className="qualification__data">
               <div></div>
               <div>
