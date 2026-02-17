@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../ProjectContainer.css";
 import { AiOutlineClose } from "react-icons/ai";
 import "../ProjectPopUp.css";
-import ProjectMain from "../../../assets/project-assets/1-main.png";
+
 import myPortfolio1 from "../../../assets/project-assets/myPortfolio1.png";
 import myPortfolio2 from "../../../assets/project-assets/myPortfolio2.png";
 import myPortfolio3 from "../../../assets/project-assets/myPortfolio3.png";
