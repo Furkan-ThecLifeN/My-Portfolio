@@ -1,9 +1,7 @@
 import React from "react";
 import ProjectsHero from "../components/ProjectsHero/ProjectsHero";
 import CineVerse from "../components/ProjectContainer/Projects/CineVerse";
-import BeatVerse from "../components/ProjectContainer/Projects/BeatVerse";
 import MyPortfolio from "../components/ProjectContainer/Projects/MyPortfolio";
-import DailyO from "../components/ProjectContainer/Projects/DailyO";
 import "./ProjectsPage.css";
 import Cinemania from "../components/ProjectContainer/Projects/Cinemania";
 import NikeStore from "../components/ProjectContainer/Projects/NikeStore";
